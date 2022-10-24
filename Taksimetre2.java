@@ -8,7 +8,7 @@ public class Taksimetre2 {
         double perKm = 2.20;
         double toplam = (km*perKm) + startPrice;
         double toplam2 = (toplam<20)? 20: toplam;
-        System.out.print(toplam2);
+        System.out.print("Ödeyeceğiniz tutar: " + toplam2 + " tl");
     }
 
 }
